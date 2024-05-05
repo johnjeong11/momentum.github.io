@@ -1,0 +1,32 @@
+.hidden {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+
+body #todo-list {
+    /* width: 100%; */
+    /* margin-top: 30px; */
+    /* max-width: min(525px, 50vw); */
+    /* overflow-y: scroll; */
+    list-style-type: none;
+  }
+
+#weather {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+  }
